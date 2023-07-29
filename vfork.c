@@ -4,16 +4,6 @@
 #include <sys/types.h>
 
 int main() {
-    /**
-     * 
-     * Child process: Hello, i'm the child!
-    Child process: My PID is 17680
-    Child process: My parent's PID is 17679
-    Parent process: Hello, I'm the parent!
-    Parent process: My PID is 17679
-    Parent process: My parent's PID is 17680
-    Parent process: Child process terminated normally.
-    */
     pid_t pid;
     // fork a child process using vfork()
     pid = vfork();
@@ -44,3 +34,13 @@ int main() {
     }
     return 1;
 }
+/**
+     * 
+     * Child process: Hello, i'm the child!
+    Child process: My PID is 17680
+    Child process: My parent's PID is 17679
+    Parent process: Hello, I'm the parent!
+    Parent process: My PID is 17679
+    Parent process: My parent's PID is 17680
+    Parent process: Child process terminated normally.
+    */
