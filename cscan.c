@@ -71,7 +71,7 @@ for(i=0; i<index; i++)
     return 0;
     }
 
-//*Enter the number of Requests
+/*Enter the number of Requests
 7
 Enter the Requests sequence
 82 170 43 140 24 16 190
@@ -83,4 +83,4 @@ Enter the head movement direction for high 1 and for low 0
 1
 SEquence of request acess:
 82 140 170 190 16 24 43 
-Total head movement is 391//*
+Total head movement is 391*/
